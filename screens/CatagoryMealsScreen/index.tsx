@@ -1,10 +1,10 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-const CatagoriesScreen = () => {
+const CatagoryMealsScreen = () => {
   return (
     <View style={styles.screen}>
-      <Text>Catagories screen</Text>
+      <Text>Catagory Meals Screen</Text>
     </View>
   );
 };
@@ -15,4 +15,4 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
 });
-export default CatagoriesScreen;
+export default CatagoryMealsScreen;
