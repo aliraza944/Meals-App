@@ -14,6 +14,8 @@ const MealsNavigation = createStackNavigator(
     MealDetail: MealsDetailScreen,
   },
   {
+    mode: "card",
+
     defaultNavigationOptions: {
       headerStyle: {
         backgroundColor: colors.primaryColor,
