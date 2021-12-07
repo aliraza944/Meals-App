@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View, Button } from "react-native";
-import { CATEGORIES } from "../../assets/Data/data";
+import { CATEGORIES, colors } from "../../assets/Data/data";
 
 const CatagoryMealsScreen = (props: any) => {
   const id = props.navigation.getParam("categoryId");

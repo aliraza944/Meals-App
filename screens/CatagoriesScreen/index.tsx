@@ -44,10 +44,6 @@ const styles = StyleSheet.create({
 
 CatagoriesScreen.navigationOptions = {
   headerTitle: "Catagory Meals",
-  headerStyle: {
-    backgroundColor: colors.primaryColor,
-  },
-  headerTintColor: "white",
 };
 
 export default CatagoriesScreen;
