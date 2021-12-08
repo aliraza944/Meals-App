@@ -2,6 +2,8 @@ import React from "react";
 import { Button, StyleSheet, Text, View } from "react-native";
 
 const MealsDetailScreen = (props: any) => {
+  const mealId = props.navigation.getParam("mealId");
+
   return (
     <View style={styles.screen}>
       <Text>MealsDetails</Text>

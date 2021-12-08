@@ -22,7 +22,14 @@ const CatagoryMealsScreen = (props: any) => {
     return (
       <View style={styles.mealsItem}>
         <TouchableOpacity
-          onPress={() => props.navigation.navigate("MealDetail")}
+          onPress={() =>
+            props.navigation.navigate({
+              routeName: "MealDetail",
+              params: {
+                mealId: itemData.item.id,
+              },
+            })
+          }
         >
           <View>
             <View style={styles.mealsHeader}>
