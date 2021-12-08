@@ -21,7 +21,9 @@ const CatagoryMealsScreen = (props: any) => {
   const renderMealItem = (itemData: any): any => {
     return (
       <View style={styles.mealsItem}>
-        <TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => props.navigation.navigate("MealDetail")}
+        >
           <View>
             <View style={styles.mealsHeader}>
               <ImageBackground
